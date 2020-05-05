@@ -1,7 +1,7 @@
 /*===============================================Shortest Distance in a Maze
 Given a matrix of integers A of size N x M describing a maze. The maze consists of empty locations and walls. 
 1 represents a wall in a matrix and 0 represents an empty location in a wall. There is a ball trapped in a maze. The ball can go through empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting a wall. When the ball stops,
- it could choose the next direction. Given two array of integers of size B and C of size 2 denoting the starting and destination position of the ball.========*/
+ it could choose the next direction. Given two array of integers of size B and C of size 2 denoting the starting and destination position of the ball.=======*/
  public class Solution {
     public int solve(int[][] A, int[] start, int[] end) {
         int[][] distance = new int[A.length][A[0].length];
